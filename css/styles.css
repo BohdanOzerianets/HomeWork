@@ -3,6 +3,7 @@
 /* белый FFFFFF */
 /* Акцент #18A0FB */
 /* Вторичный цвет фона #F5F5F5 */
+
 :root{
     --primary-text-color: rgba(0,0,0,0.8);
     --title-text-color: #000000;
@@ -47,6 +48,12 @@ body{
     font-size: 15px;
     line-height: 1.2;
     text-decoration: none;
+}
+.site-nav li{
+    margin-right: 10px;
+}
+.auth-nav li{
+    margin-right: 15px;
 }
 
 .site-nav .link:hover,
@@ -93,6 +100,9 @@ body{
     font-weight: 700;
     font-size: 24px;
     line-height: 1.5;
+}
+.work-list{
+    text-align: center;
 }
 
 .feature-list .link{
